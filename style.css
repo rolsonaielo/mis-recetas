@@ -1,22 +1,42 @@
 /* esta es mi primera hoja de estilos*/
-div {
-    background-color: rgb(166, 192, 226);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    font-weight: bolder;
-    font-family: Verdana,  Tahoma, sans-serif;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: rgb(220, 255, 242);
+}
+.tamaño .texto {
+    /*background-image: url(_resorce/lubina-con-hummus-de-guisantes.jpg);*/
+    background-position: center;
+    padding: 10px;
+    margin: 20px;
+}
+h2{
+    text-decoration: burlywood;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+div{
+    background-color: rgba(139, 0, 139, 0.178);
 }
 p{
-    color: coral;
+    color:black;
+}
 
+
+.imagen{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    width: 50%;
+    height: auto;
 }
 span{
     color: rgb(51, 255, 0);
     text-decoration: underline;
-}
-.class{
-    background-color: rgb(188, 143, 153);
-    font-style: italic;
-    text-align: left;
-
 }
