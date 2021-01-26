@@ -1,0 +1,24 @@
+
+body{
+    background-color: rgb(191, 233, 122);
+}
+
+.padre-flex{
+    background-color: darkgoldenrod;
+    width: 800px;
+    height: 500px;
+    display flex;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+.hijo-flex{
+    width: 80px;
+    height: 80px;
+    background-color: deeppink;
+    border: 1px solid black;
+
+}
+p:hover{
+    color:blue;
+}
