@@ -1,0 +1,18 @@
+.padre{
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color:  yellow;
+    border: solid 2px black;
+
+
+}
